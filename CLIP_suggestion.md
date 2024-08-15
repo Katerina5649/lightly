@@ -1,5 +1,7 @@
+Let's see how we can integrate CLIP to the lightly rfawemwork.
 
 
+![CLIP img](https://production-media.paperswithcode.com/methods/3d5d1009-6e3d-4570-8fd9-ee8f588003e7.png)
 
 ```python
 import torch
