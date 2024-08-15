@@ -1,7 +1,9 @@
-Let's see how we can integrate CLIP to the lightly rfawemwork.
+### CLIP 
 
 
 ![CLIP img](https://production-media.paperswithcode.com/methods/3d5d1009-6e3d-4570-8fd9-ee8f588003e7.png)
+
+[CLIP](https://openai.com/index/clip/) (Contrastive Language-Image Pretraining) is a model developed by OpenAI that learns to align images and textual descriptions in a shared embedding space using contrastive learning. It trains by maximizing the similarity between correct image-text pairs and minimizing it for incorrect pairs, effectively learning rich, transferable representations of both modalities. Unlike traditional supervised learning, CLIP does not require labeled datasets but rather leverages large-scale image-text pairs to perform well on various vision-and-language tasks.
 
 ```python
 import torch
